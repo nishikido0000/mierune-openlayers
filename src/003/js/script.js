@@ -26,7 +26,7 @@ var Map_Point = new ol.Feature({
 var styles = new ol.style.Style({
         image: new ol.style.Icon({
             anchor: [0.5, 1],
-            src: 'https://openlayers.org/en/v4.3.4/examples/data/icon.png'
+            src: 'https://openlayers.org/en/v5.0.2/examples/data/icon.png'
         })
     });
 layer[1] = new ol.layer.Vector({

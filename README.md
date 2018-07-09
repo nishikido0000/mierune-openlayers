@@ -22,8 +22,8 @@ index.html
         <title>OpenLayers example</title>
 
         <!--OpenLayers 読み込み-->
-        <script src="https://openlayers.org/en/v4.3.2/build/ol.js"></script>
-        <link href="https://openlayers.org/en/v4.3.2/css/ol.css" rel="stylesheet"/>
+        <script src="https://openlayers.org/en/v5.0.2/build/ol.js"></script>
+        <link href="https://openlayers.org/en/v5.0.2/css/ol.css" rel="stylesheet"/>
 
         <link href="./css/stylesheet.css" rel="stylesheet"/>
 
@@ -105,8 +105,8 @@ index.html
         <title>OpenLayers example</title>
 
         <!--OpenLayers 読み込み-->
-        <script src="https://openlayers.org/en/v4.3.2/build/ol.js"></script>
-        <link href="https://openlayers.org/en/v4.3.2/css/ol.css" rel="stylesheet"/>
+        <script src="https://openlayers.org/en/v5.0.2/build/ol.js"></script>
+        <link href="https://openlayers.org/en/v5.0.2/css/ol.css" rel="stylesheet"/>
 
         <link href="./css/stylesheet.css" rel="stylesheet"/>
 
@@ -206,7 +206,7 @@ var Map_Point = new ol.Feature({
 var styles = new ol.style.Style({
         image: new ol.style.Icon({
             anchor: [0.5, 1],
-            src: 'https://openlayers.org/en/v4.3.4/examples/data/icon.png'
+            src: 'https://openlayers.org/en/v5.0.2/examples/data/icon.png'
         })
     });
 layer[1] = new ol.layer.Vector({
